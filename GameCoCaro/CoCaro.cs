@@ -690,17 +690,16 @@ namespace GameCoCaro
         private long DiemPN_DuyetCheoXuoi(int currDong, int currCot)
         {
             long diemTong = 0;
-            long diemTC = 0;
             int soQuanTa = 0;
             int soQUanDich = 0;
-            for (int dem = 1; dem < 6 && currCot + dem < _BanCo.SoCot && currDong - dem >= 0; dem++)
+            for (int dem = 1; dem < 6 && currCot + dem < _BanCo.SoCot && currDong + dem < _BanCo.SoDong; dem++)
             {
-                if (_mangOCo[currDong - dem, currCot + dem].SoHuu == 1)
+                if (_mangOCo[currDong + dem, currCot + dem].SoHuu == 1)
                 {
                     soQuanTa++;
                     break;
                 }
-                else if (_mangOCo[currDong - dem, currCot + dem].SoHuu == 2)
+                else if (_mangOCo[currDong + dem, currCot + dem].SoHuu == 2)
                 {
                     soQUanDich++;
                 }
