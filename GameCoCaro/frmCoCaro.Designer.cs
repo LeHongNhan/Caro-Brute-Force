@@ -77,21 +77,22 @@
             this.pVPToolStripMenuItem,
             this.pVEToolStripMenuItem});
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.newToolStripMenuItem.Text = "New";
             // 
             // pVPToolStripMenuItem
             // 
             this.pVPToolStripMenuItem.Name = "pVPToolStripMenuItem";
-            this.pVPToolStripMenuItem.Size = new System.Drawing.Size(117, 26);
+            this.pVPToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.pVPToolStripMenuItem.Text = "PVP";
             this.pVPToolStripMenuItem.Click += new System.EventHandler(this.pVPToolStripMenuItem_Click);
             // 
             // pVEToolStripMenuItem
             // 
             this.pVEToolStripMenuItem.Name = "pVEToolStripMenuItem";
-            this.pVEToolStripMenuItem.Size = new System.Drawing.Size(117, 26);
+            this.pVEToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.pVEToolStripMenuItem.Text = "PVE";
+            this.pVEToolStripMenuItem.Click += new System.EventHandler(this.pVEToolStripMenuItem_Click);
             // 
             // edirtToolStripMenuItem
             // 
@@ -105,14 +106,14 @@
             // undoToolStripMenuItem
             // 
             this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
-            this.undoToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.undoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.undoToolStripMenuItem.Text = "Undo";
             this.undoToolStripMenuItem.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
             // 
             // redoToolStripMenuItem
             // 
             this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
-            this.redoToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.redoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.redoToolStripMenuItem.Text = "Redo";
             this.redoToolStripMenuItem.Click += new System.EventHandler(this.redoToolStripMenuItem_Click);
             // 

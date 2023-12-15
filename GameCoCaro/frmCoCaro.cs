@@ -92,6 +92,7 @@ namespace GameCoCaro
         {
             grp.Clear(pnBanCo.BackColor);
             coCaro.undo(grp);
+            coCaro.Sansang = true;
         }
 
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -107,6 +108,12 @@ namespace GameCoCaro
         }
 
         private void btnChoiVoimay_Click(object sender, EventArgs e)
+        {
+            grp.Clear(pnBanCo.BackColor);
+            coCaro.startPVE(grp);
+        }
+
+        private void pVEToolStripMenuItem_Click(object sender, EventArgs e)
         {
             grp.Clear(pnBanCo.BackColor);
             coCaro.startPVE(grp);

@@ -596,7 +596,7 @@ namespace GameCoCaro
             {
                 return 0;
             }
-            diemTong += mangDiemPhongNgu[soQuanTa];
+            diemTong += mangDiemPhongNgu[soQUanDich];
             return diemTong;
         }
         private long DiemPN_DuyetDoc(int currDong, int currCot)
@@ -640,7 +640,7 @@ namespace GameCoCaro
             {
                 return 0;
             }
-            diemTong += mangDiemPhongNgu[soQuanTa];
+            diemTong += mangDiemPhongNgu[soQUanDich];
             return diemTong;
         }
         private long DiemPN_DuyetCheoNguoc(int currDong, int currCot)
@@ -684,7 +684,7 @@ namespace GameCoCaro
             {
                 return 0;
             }
-            diemTong += mangDiemPhongNgu[soQuanTa];
+            diemTong += mangDiemPhongNgu[soQUanDich];
             return diemTong;
         }
         private long DiemPN_DuyetCheoXuoi(int currDong, int currCot)
@@ -728,7 +728,7 @@ namespace GameCoCaro
             {
                 return 0;
             }
-            diemTong += mangDiemPhongNgu[soQuanTa];
+            diemTong += mangDiemPhongNgu[soQUanDich];
             return diemTong;
         }
         #endregion
